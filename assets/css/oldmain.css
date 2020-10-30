@@ -2101,24 +2101,22 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		padding: 2em 0 2em 0;
-		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #DCCEFF 30%, #FFDCCE 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #DCCEFF 30%, #FFDCCE 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #DCCEFF 30%, #FFDCCE 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #DCCEFF 30%, #FFDCCE 55%);
-		background-color: #f08c89;
-		background-size: 100% 50%;
-		background-size: 128px 128px, 100% 50%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background-image: url("images/Planet.jpeg");
+		background-color: #000000;
+		background-size: 500px 400px, 100% 100%, auto;
+	
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		
 	}
 
 	.homepage #header-wrapper {
     	position: relative;
-		padding: 8em 0 6em 0;
+		padding: 4em 0 6em 0;
 		background-image: url("images/Planet.jpeg");
 		background-color: #000000;
 		background-size: cover;
-		background-size: 1000px 650px, 100% 100%, auto;
+		background-size: 1000px 750px, 100% 100%, auto;
 		background-position: top left, center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
