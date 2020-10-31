@@ -115,9 +115,9 @@ input, select, textarea {
 		font-size: 15pt;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: #52575c;
+	h1, h2, h6 {
+		font-weight: 400;
+		color: #000000;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -128,11 +128,31 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.25em;
-	}
+		
+    }
 
 	h3 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		color: #0A8EB1;
+		font-weight: 350;
+		
+	}
+	
+	h4 {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		font-weight: 350;
+		color: #7510B7;
+	}
+	
+	h5 {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		font-weight: 500;
+		color: #0A8EB1;
+		text-transform: uppercase;
+		letter-spacing: 1px;
 	}
 
 	a {
@@ -221,8 +241,8 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #f35858;
-			padding: 0.75em 0 1em 0;
+			color: #7510B7;
+			padding: 0.5em 0 0 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
 		}
@@ -1772,6 +1792,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				margin: 0 auto;
 			}
 
 		.image.featured {
