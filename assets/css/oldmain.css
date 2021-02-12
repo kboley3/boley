@@ -154,6 +154,17 @@ input, select, textarea {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
+	
+	h6 {
+		font-size: 1.5em;
+		line-height: 1.2em;
+		font-weight: 500;
+		color: #5B0685;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		padding: 0.25em 0em 0em 0em;
+	}
+
 
 	a {
 		-moz-transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -166,8 +177,8 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #f35858;
-			border-bottom-color: rgba(255, 255, 255, 0);
+			color: #7510B7;
+			border-color: rgba(117, 16, 183, 0.5);
 		}
 
 	strong, b {
@@ -1991,35 +2002,94 @@ input, select, textarea {
 
 /* Table */
 
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
 	table {
+		margin: 0 0 2em 0;
 		width: 100%;
 	}
 
-		table.default {
-			width: 100%;
+		table tbody tr {
+			border: solid 1px #fff;
+			border-left: 0;
+			border-right: 0;
 		}
 
-			table.default tbody tr {
-				border-top: solid 1px #D2D7DC;
+			table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(112,50,138,0.1);
 			}
 
-				table.default tbody tr:nth-child(2n+1) {
-					background: #f9fbfe;
+		table td {
+    		
+			padding: 0.75em 0.75em;
+			font-weight: 350;
+			font-size: 1em;
+		}
+
+		table th {
+			color: #fff;
+			font-size: 0.9em;
+			font-weight: 600;
+			padding: 0 0.75em 0.75em 0.75em;
+			text-align: left;
+		}
+
+		table thead {
+			border-bottom: solid 2px #fff;
+		}
+
+		table tfoot {
+			border-top: solid 2px #fff;
+		}
+
+		table.alt {
+			border-collapse: separate;
+		}
+
+			table.alt tbody tr td {
+				border: solid 1px #fff;
+				border-left-width: 0;
+				border-top-width: 0;
+			}
+
+				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
 				}
 
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
+			table.alt tbody tr:first-child td {
+				border-top-width: 1px;
 			}
 
-			table.default th {
-				text-align: left;
-				font-weight: 400;
-				padding: 0.5em 1em 0.5em 1em;
+			table.alt thead {
+				border-bottom: 0;
 			}
 
-			table.default tfoot {
-				border-top: solid 1px #D2D7DC;
+			table.alt tfoot {
+				border-top: 0;
 			}
+			
+			#table .button {
+			color: #0A8EB1;
+			background: #fff;
+			border-color: rgba(8, 127, 158,1);
+			background-color: rgba(213, 231, 235,0.5);
+			font-size: 1.25em;
+		}
+			
+			#table .button:hover {
+				
+				color: #fff;
+				background: #fff;
+    			border-color: rgba(112,50,138,.75);
+    			color: rgba(112,50,138,1);
+    			font-size: 1.25em
+			}
+			
+			
+
 
 /* Button */
 
@@ -2048,8 +2118,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
-			border-color: rgba(243, 88, 88, 0.5);
+			color: #7510B7;
+			border-color: rgba(117, 16, 183, 0.5);
 		}
 
 /* Icons */
@@ -2161,7 +2231,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
 	}
-
+	
 /* Header */
 
 	#logo {
@@ -2273,7 +2343,7 @@ input, select, textarea {
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
-				color: #f35858;
+				color: #7510B7;
 			}
 
 		.dropotron.level-0 {
