@@ -2483,8 +2483,9 @@ input, select, textarea {
     	#banner header > span {
 			color: #fff;
 		}
-
-		#banner h2 {
+		
+		
+		#banner header {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -2493,6 +2494,39 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease; 
+			display: inline-block;
+			font-size: 4em;
+			letter-spacing: 0.1em;
+			
+			opacity: 1;
+			padding: 0.35em 1em;
+			position: relative;
+			z-index: 1;
+			color:#FFFFFF
+			
+			
+		}
+		
+		
+		#banner header {
+                -webkit-animation: color-change 6s ;background-change 6s;
+                -moz-animation: color-change 6s ; background-change 6s;
+                -o-animation: color-change 6s ; background-change 6s;
+                -ms-animation: color-change 6s ; background-change 6s;
+                animation: color-change 6s ; background-change 6s;
+            }
+		
+
+
+		#banner h2 {
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			-moz-transition: -moz-transform 1s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 1s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 1s ease, opacity 0.5s ease;
+			transition: transform 1s ease, opacity 0.5s ease; 
 			display: inline-block;
 			font-size: 4em;
 			letter-spacing: 0.1em;
@@ -2514,14 +2548,14 @@ input, select, textarea {
 		
 
 			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.85s ease; 
-				-webkit-transition: width 0.85s ease;
-				-ms-transition: width 0.85s ease;
-				transition: width 0.85s ease;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
+				-moz-transition: width 0.25s ease; 
+				-webkit-transition: width 0.25s ease;
+				-ms-transition: width 0.25s ease;
+				transition: width 0.25s ease;
+				-moz-transition-delay: 1s;
+				-webkit-transition-delay: 1s;
+				-ms-transition-delay: 1s;
+				transition-delay: 1s;
 				background: #000; <!-- This changes the linecolor surrounding my name. -->
                 background-size: cover;
                 
@@ -2827,7 +2861,7 @@ input, select, textarea {
 			}
 
 			.homepage #header-wrapper {
-				padding: 8em 0 4em 0;
+				padding: 0em 0 0em 0;
 			}
 
 			#promo-wrapper {
