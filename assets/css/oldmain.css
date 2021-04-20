@@ -2913,6 +2913,7 @@ input, select, textarea {
 
 			#header-wrapper {
 				padding: 5em 0 1em 0;
+				
 			}
 
 			.homepage #header-wrapper {
@@ -3127,6 +3128,7 @@ input, select, textarea {
 
 			header {
 				margin-bottom: 1em;
+				
 			}
 
 				header > p {
@@ -3147,12 +3149,16 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 3em 20px 20px 20px;
+				padding: 0em 20px 20px 20px;
 				text-align: center;
+				background-size: 50%;
+				background-repeat: no-repeat;
 			}
 
 			.homepage #header-wrapper {
 				padding: 3em 20px 3em 20px;
+				background-size: 50%;
+				background-repeat: no-repeat;
 			}
 
 			#promo-wrapper {
