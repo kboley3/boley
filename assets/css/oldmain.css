@@ -2757,6 +2757,7 @@ input, select, textarea {
 				padding: 0em 0em 0em 0em ;
 				height: auto;
 				min-height: 0;
+				width: 100%
 			}
 
 				#banner h2 {
@@ -3149,14 +3150,14 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 0em 20px 20px 20px;
+				padding: 0em 0px 0px 0px;
 				text-align: center;
 				background-size: 50%;
 				background-repeat: no-repeat;
 			}
 
 			.homepage #header-wrapper {
-				padding: 3em 20px 3em 20px;
+				padding: 0em 0px 0em 0px;
 				background-size: 50%;
 				background-repeat: no-repeat;
 			}
