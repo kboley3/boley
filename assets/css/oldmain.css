@@ -3150,14 +3150,14 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 0em 0px 0px 0px;
+				padding: 0em 20px 0px 20px;
 				text-align: center;
 				background-size: 50%;
 				background-repeat: no-repeat;
 			}
 
 			.homepage #header-wrapper {
-				padding: 0em 0px 0em 0px;
+				padding: 0em 20px 0em 20px;
 				background-size: 50%;
 				background-repeat: no-repeat;
 			}
