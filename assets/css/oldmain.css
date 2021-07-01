@@ -2498,12 +2498,12 @@ input, select, textarea {
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
 			transform: scale(1);
-			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease; 
-			display: inline-block;
-			font-size: 4em;
+			-moz-transition: -moz-transform 1s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 1s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 1s ease, opacity 0.5s ease;
+			transition: transform 1s ease, opacity 0.5s ease; 
+			display: block;
+			font-size: 8em;
 			letter-spacing: 0.1em;
 			
 			opacity: 1;
@@ -2527,16 +2527,16 @@ input, select, textarea {
 
 
 		#banner h2 {
-			-moz-transform: scale(1);
-			-webkit-transform: scale(1);
-			-ms-transform: scale(1);
-			transform: scale(1);
-			-moz-transition: -moz-transform 1s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 1s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 1s ease, opacity 0.5s ease;
-			transition: transform 1s ease, opacity 0.5s ease; 
-			display: inline-block;
-			font-size: 4em;
+			-moz-transform: scale(2);
+			-webkit-transform: scale(2);
+			-ms-transform: scale(2);
+			transform: scale(2);
+			-moz-transition: -moz-transform 2s ease, opacity 1s ease;
+			-webkit-transition: -webkit-transform 2s ease, opacity 1s ease;
+			-ms-transition: -ms-transform 2s ease, opacity 1s ease;
+			transition: transform 2s ease, opacity 1s ease; 
+			display: block;
+			font-size: 2em;
 			letter-spacing: 0.1em;
 			
 			opacity: 1;
@@ -2557,10 +2557,10 @@ input, select, textarea {
 		
 
 			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.25s ease; 
-				-webkit-transition: width 0.25s ease;
-				-ms-transition: width 0.25s ease;
-				transition: width 0.25s ease;
+				-moz-transition: width 0.5s ease; 
+				-webkit-transition: width 0.5s ease;
+				-ms-transition: width 0.5s ease;
+				transition: width 0.5s ease;
 				-moz-transition-delay: 1s;
 				-webkit-transition-delay: 1s;
 				-ms-transition-delay: 1s;
@@ -2570,7 +2570,7 @@ input, select, textarea {
                 
 				content: '';
 				display: block;
-				height: 4px;
+				height: 2px;
 				position: absolute;
 				width: 100%;
 				
@@ -2868,7 +2868,7 @@ input, select, textarea {
 			}
 
 			#header-wrapper {
-				padding: 2em 0 2em 0;
+				padding: 0em 0 0em 0;
 			}
 
 			.homepage #header-wrapper {
@@ -2876,11 +2876,11 @@ input, select, textarea {
 			}
 
 			#promo-wrapper {
-				padding: 5em 0 5em 0;
+				padding: 3em 0 3em 0;
 			}
 
 			#footer-wrapper {
-				padding: 5em 0 5em 0;
+				padding: 3em 0 3em 0;
 			}
 
 	}
