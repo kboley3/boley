@@ -2194,12 +2194,14 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		padding: 2em 0 2em 0;
-		background-image: url("images/Planet.jpeg");
+		background-image: url("images/Planet.jpg");
 		background-color: #000000;
 		background-size:  cover;
     	background-position: bottom 300px center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		
+		
 
 		
 	}
@@ -2207,13 +2209,14 @@ input, select, textarea {
 	.homepage #header-wrapper {
     	position: relative;
 		padding: 0em 0 0em 0;
-		background-image: url("images/Planet.jpeg");
+		background-image: url("images/Planet.jpg");
 		background-color: #000000;
 		background-size: cover;
-		background-size:  100% 100%, auto;
-		background-position: top left, center center;
+		background-position:  center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		
+		
 		
 		
 	}
@@ -2571,12 +2574,12 @@ input, select, textarea {
 				-webkit-transition-delay: 1s;
 				-ms-transition-delay: 1s;
 				transition-delay: 1s;
-				background: #6DBED3; <!-- This changes the linecolor surrounding my name. -->
+				background: #ee8e57; <!-- This changes the linecolor surrounding my name. -->
                 background-size: cover;
                 vertical-align: middle;
 				content: '';
 				display: inline-block;
-				height: 1px;
+				height: 3px;
 				position: relative;
 				width: 50%;
 				
